@@ -20,7 +20,7 @@ def take_screenshot(timestamp: int) -> None:
     Args:
         timestamp (int): The timestamp of the screenshot.
     """
-    screenshot = pyautogui.screenshot(region=(405, 212, 849, 481))
+    screenshot = pyautogui.screenshot(region=(405, 210, 850, 480))
 
     screenshot.save(fp=f"{DIR}/{timestamp}.png")
 
