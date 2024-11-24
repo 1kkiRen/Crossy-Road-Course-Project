@@ -1,1 +1,5 @@
 Multi-Template-Matching
+inference-sdk
+dotenv
+cv2
+opencv-python-headless
