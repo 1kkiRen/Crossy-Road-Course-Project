@@ -4,6 +4,7 @@ __pycache__/
 
 # Ignore virtual environment directories
 venv/
+
 venv*/
 
 # Ignore environment variable files
@@ -20,3 +21,19 @@ output/
 
 # Ignore draft files
 draft*
+
+runs/
+
+yolo11n.pt
+
+__MACOSX/
+
+object_screens/
+
+output/
+
+test_screens_for_detecting/
+
+YOLO11_dataset/
+
+/yolov5/
