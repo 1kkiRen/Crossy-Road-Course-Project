@@ -9,13 +9,8 @@ load_dotenv()
 ROBOFLOW_API_KEY = os.getenv("ROBOFLOW_API_KEY")
 """Classes that are detected:
     hen
-    car_left        // car moving left
-    car_right       // car moving right
-    obstacle        // bushes, stones, signs before train, etc.
-    stop            // restart sign
-    timber          // timbers on a river and green leves on river
-    truck_right     // truck moving right
-    truck_left      // truck moving left
+    obstacle        // static and moving objects
+    timber          // objects floating on water
 """
 
 def detect_objects(image_need_to_be_detected):
@@ -49,7 +44,7 @@ def detect_objects(image_need_to_be_detected):
         api_key=ROBOFLOW_API_KEY
     )
     detections = CLIENT.infer(
-        image_need_to_be_detected, model_id="crossy-road-rl-agent/2")
+        image_need_to_be_detected, model_id="crossy-road-rl-agent/7")
     return detections
 
 #################### Example usage: ####################
