@@ -1,10 +1,5 @@
 draft*
 
-# runs/detect/train
-# runs/detect/train1
-# runs/detect/train2
-# runs/detect/train3
-# runs/detect/train4
 runs/
 
 yolo11n.pt
@@ -20,3 +15,5 @@ test_screens_for_detecting/
 YOLO11_dataset/
 
 /yolov5/
+
+*test*

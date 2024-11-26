@@ -1,4 +1,4 @@
-# PMLDL-Course-Project CV-component
+# Course-Project CV-component
 
 ## Setup
 
