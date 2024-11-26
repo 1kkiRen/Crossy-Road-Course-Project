@@ -1,5 +1,9 @@
+keyboard==0.13.5
+pandas==2.2.3
+PyAutoGUI==0.9.54
 Multi-Template-Matching
 inference-sdk
 dotenv
 cv2
 opencv-python-headless
+
