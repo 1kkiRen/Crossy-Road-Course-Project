@@ -1,10 +1,27 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+
+venv*/
+
+# Ignore environment variable files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore output files
+output/
+
+# Ignore draft files
 draft*
 
-# runs/detect/train
-# runs/detect/train1
-# runs/detect/train2
-# runs/detect/train3
-# runs/detect/train4
 runs/
 
 yolo11n.pt

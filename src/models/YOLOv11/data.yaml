@@ -1,13 +1,16 @@
-train: ../YOLO11_dataset/Crossy Road RL Agent/images/train
-val: ../YOLO11_dataset/Crossy Road RL Agent/images/val
-test: ../YOLO11_dataset/Crossy Road RL Agent/images/test
+train:  C:/VSCode/CrossyRoad/Crossy-Road-Course-Project/YOLO11_dataset/Crossy Road RL Agent/images/train
+val: C:/VSCode/CrossyRoad/Crossy-Road-Course-Project/YOLO11_dataset/Crossy Road RL Agent/images/val
+test: C:/VSCode/CrossyRoad/Crossy-Road-Course-Project/YOLO11_dataset/Crossy Road RL Agent/images/test
 
-nc: 5
-names: ['car', 'hen', 'obstacle', 'timber', 'water']
+# nc: 3
+names:
+  0: hen
+  1: obstacle
+  2: timber
 
-roboflow:
-  workspace: crossyroadproject
-  project: crossy-road-rl-agent
-  version: 11
-  license: Private
-  url: https://app.roboflow.com/crossyroadproject/crossy-road-rl-agent/11
+# roboflow:
+#   workspace: crossyroadproject
+#   project: crossy-road-rl-agent
+#   version: 5
+#   license: Private
+#   url: https://app.roboflow.com/crossyroadproject/crossy-road-rl-agent/5
