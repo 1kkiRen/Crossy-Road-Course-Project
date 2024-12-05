@@ -55,7 +55,7 @@ The fourth iteration achieved the best performance, with the agent scoring **29 
 
 [Watch the Crossy Road RL Agent Video](https://drive.google.com/file/d/1u5NwORIDgiYjUVQ0rwhrERhyxmoAB7RG/preview)
 
-The detatiled report can be found [here]()
+The detatiled report can be found [here](https://github.com/1kkiRen/Crossy-Road-Course-Project/blob/main/REPORT.pdf)
 
 
 ## Limitations  
